@@ -38,7 +38,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className="about flex flex-row justify-center items-center gap-[7rem] w-full h-screen bg-gradient-to-br from-[#2d0c1b] via-[#3b1023] to-[#720A30] px-20 py-[4.5rem]">
+      <section className="about flex flex-row justify-center items-center gap-[7rem] w-full min-h-screen bg-gradient-to-br from-[#2d0c1b] via-[#3b1023] to-[#720A30] px-20 py-[4.5rem]">
         <div className="relative w-[28rem]">
           <p className="text-[5rem] text-[#EBDBBF] font-Prociono mb-4">
             About Us.
