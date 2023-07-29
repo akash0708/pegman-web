@@ -22,7 +22,7 @@ export default function Home() {
         </Link>
       </nav>
       <section
-        className="realtive flex h-screen flex-col justify-center items-center bg-cover bg-no-repeat"
+        className="realtive flex min-h-screen flex-col justify-center items-center bg-cover bg-no-repeat"
         style={{ backgroundImage: `url('/hero.png')` }}
       >
         <div className="relative flex flex-col text-center justify-center">
