@@ -77,6 +77,42 @@ export default function Home() {
           <Image src="/about.png" alt="about image" width={500} height={500} />
         </div>
       </section>
+
+      <section className="features relative w-full h-screen py-5 flex flex-col items-center bg-gradient-to-l from-[#2d0c1b] via-[#3b1023] to-[#720A30]">
+        <div className="flex items-center absolute m-auto">
+          <div className="bg-gradient-to-l from-[#BF1B42] w-48 h-2 rounded-md"></div>
+          <span className="text-[#CDBC9E] font-Prociono text-[5rem] px-10">
+            Features
+          </span>
+          <div className="bg-gradient-to-r from-[#BF1B42] w-48 h-2 rounded-md"></div>
+        </div>
+        <div className="w-full mt-2 px-44 absolute top-48 flex flex-col sm:flex-row justify-between items-center">
+          <div className="image_container flex flex-col gap-9 items-center w-full">
+            <Image src="/feat1.png" alt="feat1" width={250} height={300} />
+            <p className="img_title font-Raleway font-bold text-[#FFE2DB] text-2xl text-center">
+              DOORSTEP
+              <br />
+              DELIVERY
+            </p>
+          </div>
+          <div className="image_container flex flex-col gap-9 items-center w-full">
+            <Image src="/feat2.png" alt="feat1" width={250} height={200} />
+            <p className="img_title font-Raleway font-bold text-[#FFE2DB] text-2xl text-center">
+              CORPORATE
+              <br />
+              GIFTING
+            </p>
+          </div>
+          <div className="image_container flex flex-col gap-9 items-center w-full">
+            <Image src="/feat3.png" alt="feat1" width={250} height={200} />
+            <p className="img_title font-Raleway font-bold text-[#FFE2DB] text-2xl text-center">
+              CUSTOMIZED
+              <br />
+              COCKTAILS
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
