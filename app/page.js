@@ -37,7 +37,7 @@ export default function Home() {
       <section
         id="home"
         className="realtive flex min-h-screen flex-col justify-center items-center bg-cover bg-no-repeat"
-        style={{ backgroundImage: `url('/hero.png')` }}
+        style={{ background: `url('/hero.png')`, brightness: "50%" }}
       >
         <div className="relative flex flex-col gap-1 text-center justify-center">
           <Image
@@ -162,14 +162,14 @@ export default function Home() {
 
       <section className="coming-soon flex flex-col items-center w-full min-h-screen bg-gradient-to-tr from-[#2d0c1b] via-[#3b1023] to-[#720A30]">
         <div className="flex flex-row items-center pt-4">
-          <div className="bg-gradient-to-l from-[#BF1B42] w-16 sm:w-48 h-1 rounded-md mt-5"></div>
-          <span className="text-[#CDBC9E] font-Prociono text-[2.5rem] sm:text-[5rem] pt-4 px-2 sm:px-10">
+          <div className="bg-gradient-to-l from-[#BF1B42] w-16 md:w-32 sm:w-48 h-1 rounded-md mt-5"></div>
+          <span className="text-[#CDBC9E] font-Prociono text-[2.5rem] md:text-[4rem] sm:text-[5rem] pt-4 px-2 md:px-5 sm:px-10">
             Coming Soon
           </span>
-          <div className="bg-gradient-to-r from-[#BF1B42] w-16 sm:w-48 h-1 rounded-md mt-5"></div>
+          <div className="bg-gradient-to-r from-[#BF1B42] w-16 md:w-32 sm:w-48 h-1 rounded-md mt-5"></div>
         </div>
 
-        <div className="content relative w-full sm:min-h-fit flex flex-col sm:flex-row justify-center items-center gap-24 lg:gap-72 py-12">
+        <div className="content relative w-full sm:min-h-fit flex flex-col sm:flex-row justify-center items-center md:gap-10 lg:gap-72 md:px-20 px-10 py-12">
           <div className="image_container relative w-4/5 sm:w-64 h-[37rem]">
             <Image src="/phone.png" alt="phone" fill className="object-fit" />
           </div>
