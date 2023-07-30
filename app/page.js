@@ -96,7 +96,7 @@ export default function Home() {
           </span>
           <div className="bg-gradient-to-r from-[#BF1B42] w-20 sm:w-48 h-1 rounded-md mt-5"></div>
         </div>
-        <div className="img_container flex flex-col sm:flex-row sm:gap-28 w-4/5 p-10 sm:px-24 items-center mt-10 min-h-fit">
+        <div className="img_container flex flex-col lg:flex-row gap-10 lg:gap-28 w-4/5 p-10 sm:px-24 items-center mt-10 min-h-fit">
           <div className="img_card relative w-full h-80 mb-28 text-center rounded-tr-lg">
             <Image
               src="/feat11.png"
@@ -104,10 +104,8 @@ export default function Home() {
               fill
               className="object-cover rounded-bl-[2rem] rounded-tr-[2rem]"
             />
-            <p className="absolute bottom-[-5rem] mx-12 text-center text-2xl font-Raleway text-[#FFE2DB] uppercase">
-              doorstep
-              <br />
-              delivery
+            <p className="absolute bottom-[-5rem] mx-12 text-center text-2xl md:text-[2.2rem] lg:text-2xl font-Raleway text-[#FFE2DB] uppercase">
+              doorstep delivery
             </p>
           </div>
           <div className="img_card relative w-full h-80 mb-28 text-center rounded-tr-lg">
@@ -117,10 +115,8 @@ export default function Home() {
               fill
               className="object-cover rounded-bl-[2rem] rounded-tr-[2rem]"
             />
-            <p className="absolute bottom-[-5rem] mx-12 text-center text-2xl font-Raleway text-[#FFE2DB] uppercase">
-              corporate
-              <br />
-              gifting
+            <p className="absolute bottom-[-5rem] mx-12 text-center text-2xl md:text-4xl lg:text-2xl font-Raleway text-[#FFE2DB] uppercase">
+              corporate gifting
             </p>
           </div>
           <div className="img_card relative w-full h-80 mb-28 text-center rounded-tr-lg">
@@ -130,10 +126,8 @@ export default function Home() {
               fill
               className="object-cover rounded-bl-[2rem] rounded-tr-[2rem]"
             />
-            <p className="absolute bottom-[-5rem] mx-12 text-center text-2xl font-Raleway text-[#FFE2DB] uppercase">
-              customized
-              <br />
-              cocktails
+            <p className="absolute bottom-[-5rem] mx-12 text-center text-2xl md:text-[1.85rem] lg:text-2xl font-Raleway text-[#FFE2DB] uppercase">
+              customized cocktails
             </p>
           </div>
         </div>
