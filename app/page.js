@@ -36,8 +36,13 @@ export default function Home() {
 
       <section
         id="home"
-        className="realtive flex min-h-screen flex-col justify-center items-center bg-cover bg-no-repeat"
-        style={{ background: `url('/hero.png')`, brightness: "50%" }}
+        className="realtive flex min-h-screen flex-col justify-center items-center"
+        style={{
+          background: `url('/hero.png')`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          filter: "contrast(1.25)",
+        }}
       >
         <div className="relative flex flex-col gap-1 text-center justify-center">
           <Image
@@ -48,7 +53,7 @@ export default function Home() {
             height={500}
           />
           <Image
-            className="z-10 items-center mx-auto inline sm:hidden"
+            className="z-10 items-center mx-auto mt-12 pb-8 inline sm:hidden"
             src="/logo.png"
             alt="hero-image"
             width={250}
