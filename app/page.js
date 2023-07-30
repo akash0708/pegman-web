@@ -212,7 +212,7 @@ export default function Home() {
             Meet The Team
           </span>
         </div>
-        <div className="content sm:border-2 sm:border-t-0 sm:border-red-500 w-4/5 h-fit flex flex-col sm:flex-row items-center justify-center gap-28 md:gap-28 sm:gap-60 p-12 pb-24">
+        <div className="content sm:border-2 sm:border-t-0 sm:border-red-500 w-4/5 h-fit flex flex-col sm:flex-row items-center justify-center gap-28 md:gap-28 lg:gap-60 p-12 pb-24">
           <div className="image_card h-80 w-56 relative">
             <Image
               src="/anirban.png"
@@ -254,7 +254,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="footer flex flex-col sm:flex-row sm:justify-between sm:items-start pt-0  sm:py-12 px-20 sm:px-40 w-full min-h-fit bg-[#2d0c1b]">
+      <section className="footer flex flex-col sm:flex-row sm:justify-between sm:items-start pt-0  sm:py-12 px-16 lg:px-40 w-full min-h-fit bg-[#2d0c1b]">
         <div className="image realtive w-40 h-40 flex justify-center items-center">
           <img src="/logo2.png" alt="logo2" />
         </div>
@@ -275,7 +275,7 @@ export default function Home() {
           <Link href="/" className="text-base font-thin">
             Team
           </Link>
-          <p className="text-sm font-thin py-8 hidden sm:inline">
+          <p className="text-sm font-thin pt-8 hidden sm:inline">
             Copyright ©2023 PEGMAN
           </p>
         </div>
