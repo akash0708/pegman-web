@@ -2,7 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaGooglePlay } from "react-icons/fa";
 import { FaApple } from "react-icons/fa";
-import { BsApple } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -211,7 +213,7 @@ export default function Home() {
             Meet The Team
           </span>
         </div>
-        <div className="content border-2 border-t-0 border-red-500 w-4/5 h-fit flex flex-row items-center justify-center gap-60 p-12 pb-24">
+        <div className="content sm:border-2 sm:border-t-0 sm:border-red-500 w-4/5 h-fit flex flex-col sm:flex-row items-center justify-center gap-28 sm:gap-60 p-12 pb-24">
           <div className="image_card h-80 w-56 relative">
             <Image
               src="/anirban.png"
@@ -219,6 +221,17 @@ export default function Home() {
               fill
               className="object-cover rounded-xl border border-red-500"
             />
+            <div className="absolute flex flex-col gap-2 items-center bottom-4 left-6 text-white">
+              <p className="font-Raleway text-xl font-semibold">
+                Anirban DasGupta
+              </p>
+              <p className="uppercase font-Raleway text-sm">founder, ceo</p>
+              <div className="socials flex flex-row gap-2 text-lg">
+                <FaInstagram />
+                <FaFacebookSquare />
+                <FaLinkedin />
+              </div>
+            </div>
           </div>
           <div className="image_card h-80 w-56 relative">
             <Image
@@ -227,6 +240,17 @@ export default function Home() {
               fill
               className="object-cover rounded-xl border border-red-500"
             />
+            <div className="absolute flex flex-col gap-2 items-center bottom-4 left-6 text-white">
+              <p className="font-Raleway text-xl font-semibold">
+                Sainik Khaddar
+              </p>
+              <p className="uppercase font-Raleway text-sm">co-founder, cmo</p>
+              <div className="socials flex flex-row gap-2 text-lg">
+                <FaInstagram />
+                <FaFacebookSquare />
+                <FaLinkedin />
+              </div>
+            </div>
           </div>
         </div>
       </section>
