@@ -12,6 +12,7 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "feature-extended": "url('/featextd.png')",
+        "feature-extended-phone": "url('/featextdphone.png')",
       },
       fontFamily: {
         Raleway: ["Raleway", "sans-serif"],
