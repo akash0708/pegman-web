@@ -139,7 +139,6 @@ export default function Home() {
         </div>
       </section>
 
-      
       {/* FEATURE EXTENDED */}
       <section className="bg-feature-extended-phone bg-cover sm:bg-feature-extended sm:box-border sm:shadow-[inset_-550px_0_100px_0_rgba(59,16,35,1)] w-full h-fit">
         <div className="w-full sm:w-4/5 h-[40rem] relative">
@@ -154,13 +153,12 @@ export default function Home() {
           </div>
           <div className="absolute w-full sm:w-fit justify-center items-center sm:right-[-4.5rem] bottom-[15rem] sm:bottom-[12.5rem] flex flex-row">
             <div>
-            <ul className="list-disc list-outside marker:text-[#AD133C] text-white font-Raleway text-3xl">
-              <li className="leading-10">Corporate events</li>
-              <li className="leading-10">Birthdays</li>
-              <li className="leading-10">Anniversaries</li>
-            </ul>
-          </div>
-            
+              <ul className="list-disc list-outside marker:text-[#AD133C] text-white font-Raleway text-3xl">
+                <li className="leading-10">Corporate events</li>
+                <li className="leading-10">Birthdays</li>
+                <li className="leading-10">Anniversaries</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -208,13 +206,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col items-center justify-center w-full min-h-screen bg-[#2d0c1b] ">
+      <section className=" team flex flex-col items-center justify-center w-full min-h-screen bg-[#2d0c1b] ">
         <div className="heading">
           <span className="text-[#CDBC9E] font-Prociono text-[2.5rem] sm:text-[5rem]">
             Meet The Team
           </span>
         </div>
-        <div className="content sm:border-2 sm:border-t-0 sm:border-red-500 w-4/5 h-fit flex flex-col sm:flex-row items-center justify-center gap-28 sm:gap-60 p-12 pb-24">
+        <div className="content sm:border-2 sm:border-t-0 sm:border-red-500 w-4/5 h-fit flex flex-col sm:flex-row items-center justify-center gap-28 md:gap-28 sm:gap-60 p-12 pb-24">
           <div className="image_card h-80 w-56 relative">
             <Image
               src="/anirban.png"
