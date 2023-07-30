@@ -16,6 +16,7 @@ module.exports = {
       fontFamily: {
         Raleway: ["Raleway", "sans-serif"],
         Prociono: ["Prociono", "sans-sefir"],
+        Jost: ["Jost", "sans-serif"],
       },
     },
   },
