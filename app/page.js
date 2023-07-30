@@ -60,7 +60,7 @@ export default function Home() {
         className="about flex flex-col sm:flex-row justify-center items-center gap-14 sm:gap-[7rem] w-full min-h-screen bg-gradient-to-br from-[#2d0c1b] via-[#3b1023] to-[#720A30] px-14 sm:px-20 py-10 sm:py-[4.5rem]"
       >
         <div className="relative w-full sm:w-[28rem]">
-          <p className="text-[5rem] text-[#EBDBBF] font-Prociono mb-4">
+          <p className="sm:text-[5rem] text-5xl text-[#EBDBBF] font-Prociono mb-10">
             About Us.
           </p>
           <p className="text-white font-Raleway text-lg">
@@ -73,42 +73,47 @@ export default function Home() {
             weekend/birthday parties in homestays all around Kolkata.
           </p>
         </div>
-        <div className="relative w-1/3" style={{ height: "100%" }}>
-          <Image src="/about.png" alt="about image" width={500} height={500} />
+        <div className="relative w-full sm:w-1/3 h-96 sm:h-[30rem]">
+          <Image
+            src="/about.png"
+            alt="about image"
+            className="object-cover"
+            fill
+          />
         </div>
       </section>
 
-      <section className="features relative w-full h-screen py-5 flex flex-col items-center bg-gradient-to-l from-[#2d0c1b] via-[#3b1023] to-[#720A30]">
-        <div className="flex items-center absolute m-auto">
-          <div className="bg-gradient-to-l from-[#BF1B42] w-48 h-2 rounded-md"></div>
-          <span className="text-[#CDBC9E] font-Prociono text-[5rem] px-10">
+      <section className="features flex flex-col items-center w-full min-h-screen bg-gradient-to-l from-[#2d0c1b] via-[#3b1023] to-[#720A30]">
+        <div className="flex flex-row items-center pt-4">
+          <div className="bg-gradient-to-l from-[#BF1B42] w-20 sm:w-48 h-1 rounded-md mt-5"></div>
+          <span className="text-[#CDBC9E] font-Prociono text-5xl sm:text-[5rem] pt-4 px-2 sm:px-10">
             Features
           </span>
-          <div className="bg-gradient-to-r from-[#BF1B42] w-48 h-2 rounded-md"></div>
+          <div className="bg-gradient-to-r from-[#BF1B42] w-20 sm:w-48 h-1 rounded-md mt-5"></div>
         </div>
-        <div className="w-full mt-2 px-44 absolute top-48 flex flex-col sm:flex-row justify-between items-center">
-          <div className="image_container flex flex-col gap-9 items-center w-full">
-            <Image src="/feat1.png" alt="feat1" width={250} height={300} />
-            <p className="img_title font-Raleway font-bold text-[#FFE2DB] text-2xl text-center">
-              DOORSTEP
+        <div className="img_container flex flex-col sm:flex-row sm:gap-28 w-4/5 p-10 sm:px-24 items-center mt-10 min-h-fit">
+          <div className="img_card relative w-full h-80 mb-28 text-center">
+            <Image src="/feat1.png" alt="feat1" fill className="object-cover" />
+            <p className="absolute bottom-[-5rem] mx-12 text-center text-2xl font-Raleway text-[#FFE2DB] uppercase">
+              doorstep
               <br />
-              DELIVERY
+              delivery
             </p>
           </div>
-          <div className="image_container flex flex-col gap-9 items-center w-full">
-            <Image src="/feat2.png" alt="feat1" width={250} height={200} />
-            <p className="img_title font-Raleway font-bold text-[#FFE2DB] text-2xl text-center">
-              CORPORATE
+          <div className="img_card relative w-full h-80 mb-28 text-center">
+            <Image src="/feat2.png" alt="feat1" fill className="object-cover" />
+            <p className="absolute bottom-[-5rem] mx-12 text-center text-2xl font-Raleway text-[#FFE2DB] uppercase">
+              corporate
               <br />
-              GIFTING
+              gifting
             </p>
           </div>
-          <div className="image_container flex flex-col gap-9 items-center w-full">
-            <Image src="/feat3.png" alt="feat1" width={250} height={200} />
-            <p className="img_title font-Raleway font-bold text-[#FFE2DB] text-2xl text-center">
-              CUSTOMIZED
+          <div className="img_card relative w-full h-80 mb-28 text-center">
+            <Image src="/feat3.png" alt="feat1" fill className="object-cover" />
+            <p className="absolute bottom-[-5rem] mx-12 text-center text-2xl font-Raleway text-[#FFE2DB] uppercase">
+              customized
               <br />
-              COCKTAILS
+              cocktails
             </p>
           </div>
         </div>
