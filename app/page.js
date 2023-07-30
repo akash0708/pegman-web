@@ -1,5 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FaGooglePlay } from "react-icons/fa";
+import { FaApple } from "react-icons/fa";
+import { BsApple } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -172,7 +175,7 @@ export default function Home() {
               className="object-fit ml-[2.5rem]"
             />
           </div>
-          <div className="content_container relative text-left w-96 sm:w-[28.5rem] sm:h-80 top-20 sm:left-[-23rem] font-Raleway px-8">
+          <div className="content_container relative text-left w-96 sm:w-[28.5rem] mt-20 sm:left-[-23rem] font-Raleway px-8 pb-[5rem]">
             <p className="heading uppercase text-[#F4E9ED] font-semibold text-3xl leading-[3rem] mb-16">
               PEGS NOW AT YOUR FINGERTIPS
             </p>
@@ -184,6 +187,46 @@ export default function Home() {
               experience, allowing you to explore an extensive collection of
               beverages from renowned brands and hidden gems alike.
             </p>
+            <div className="buttons mt-20 flex flex-row gap-6">
+              <button className="rounded-md bg-slate-50 px-2 py-2">
+                <FaApple className="inline text-3xl" />
+                <span className="font-Raleway font-semibold text-gray-600 ml-2 text-lg">
+                  App Store
+                </span>
+              </button>
+              <button className="rounded-md bg-slate-50 px-2 py-2">
+                <FaGooglePlay className="inline text-3xl" />
+                <span className="font-Raleway font-semibold text-gray-600 ml-2 text-lg">
+                  Play Store
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="flex flex-col items-center justify-center w-full min-h-screen bg-[#2d0c1b] ">
+        <div className="heading">
+          <span className="text-[#CDBC9E] font-Prociono text-[2.5rem] sm:text-[5rem]">
+            Meet The Team
+          </span>
+        </div>
+        <div className="content border-2 border-t-0 border-red-500 w-4/5 h-fit flex flex-row items-center justify-center gap-60 p-12 pb-24">
+          <div className="image_card h-80 w-56 relative">
+            <Image
+              src="/anirban.png"
+              alt="anirban"
+              fill
+              className="object-cover rounded-xl border border-red-500"
+            />
+          </div>
+          <div className="image_card h-80 w-56 relative">
+            <Image
+              src="/sainik.png"
+              alt="sainik"
+              fill
+              className="object-cover rounded-xl border border-red-500"
+            />
           </div>
         </div>
       </section>
