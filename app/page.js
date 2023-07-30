@@ -62,7 +62,7 @@ export default function Home() {
 
       <section
         id="about"
-        className="about flex flex-col sm:flex-row justify-center items-center gap-14 sm:gap-[7rem] w-full min-h-screen bg-gradient-to-br from-[#2d0c1b] via-[#3b1023] to-[#720A30] px-14 sm:px-20 py-10 sm:py-[4.5rem]"
+        className="about flex flex-col lg:flex-row justify-center items-center gap-14 sm:gap-[7rem] w-full min-h-screen bg-gradient-to-br from-[#2d0c1b] via-[#3b1023] to-[#720A30] px-14 sm:px-20 py-10 sm:py-[4.5rem]"
       >
         <div className="relative w-full sm:w-[28rem]">
           <p className="sm:text-[5rem] text-5xl text-[#EBDBBF] font-Prociono mb-10">
@@ -78,7 +78,7 @@ export default function Home() {
             weekend/birthday parties in homestays all around Kolkata.
           </p>
         </div>
-        <div className="relative w-full sm:w-1/3 h-96 sm:h-[30rem]">
+        <div className="relative w-4/5 lg:w-1/3 h-96 sm:h-[30rem]">
           <Image
             src="/about.png"
             alt="about image"
@@ -168,16 +168,12 @@ export default function Home() {
           </span>
           <div className="bg-gradient-to-r from-[#BF1B42] w-16 sm:w-48 h-1 rounded-md mt-5"></div>
         </div>
-        <div className="content relative w-full sm:min-h-fit flex flex-col sm:flex-row justify-between py-12">
-          <div className="image_container relative w-4/5 sm:w-64 h-[37rem] sm:right-[-14rem]">
-            <Image
-              src="/phone.png"
-              alt="phone"
-              fill
-              className="object-fit ml-[2.5rem]"
-            />
+
+        <div className="content relative w-full sm:min-h-fit flex flex-col sm:flex-row justify-center items-center gap-24 lg:gap-72 py-12">
+          <div className="image_container relative w-4/5 sm:w-64 h-[37rem]">
+            <Image src="/phone.png" alt="phone" fill className="object-fit" />
           </div>
-          <div className="content_container relative text-left w-96 sm:w-[28.5rem] mt-20 sm:left-[-23rem] font-Raleway px-8 pb-[5rem]">
+          <div className="content_container relative text-left w-96 sm:w-[28.5rem] mt-20 font-Raleway px-8 pb-[5rem]">
             <p className="heading uppercase text-[#F4E9ED] font-semibold text-3xl leading-[3rem] mb-16">
               PEGS NOW AT YOUR FINGERTIPS
             </p>
