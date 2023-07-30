@@ -211,13 +211,13 @@ export default function Home() {
             Meet The Team
           </span>
         </div>
-        <div className="content sm:border-2 sm:border-t-0 sm:border-red-500 w-4/5 h-fit flex flex-col sm:flex-row items-center justify-center gap-28 md:gap-28 lg:gap-60 p-12 pb-24">
+        <div className="content sm:border-2 sm:border-t-0 sm:border-[#BF1B42] w-4/5 h-fit flex flex-col sm:flex-row items-center justify-center gap-28 md:gap-28 lg:gap-60 p-12 pb-24">
           <div className="image_card h-80 w-56 relative">
             <Image
               src="/anirban.png"
               alt="anirban"
               fill
-              className="object-cover rounded-xl border border-red-500"
+              className="object-cover rounded-xl border border-[#C6627D]"
             />
             <div className="absolute flex flex-col gap-2 items-center bottom-4 left-6 text-white">
               <p className="font-Raleway text-xl font-semibold">
@@ -233,12 +233,12 @@ export default function Home() {
           </div>
           <div className="image_card h-80 w-56 relative">
             <Image
-              src="/sainik.png"
+              src="/sainikblack.png"
               alt="sainik"
               fill
-              className="object-cover rounded-xl border border-red-500"
+              className="object-cover rounded-xl border border-[#C6627D] contrast-125"
             />
-            <div className="absolute flex flex-col gap-2 items-center bottom-4 left-6 text-white">
+            <div className="absolute flex flex-col gap-2 items-center bottom-4 left-14 text-white">
               <p className="font-Raleway text-xl font-semibold">
                 Sainik Khaddar
               </p>
