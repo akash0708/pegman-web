@@ -24,17 +24,18 @@ const Navbar = () => {
             toggle={setOpen}
             size={28}
             color="#ffffff"
+            onToggle={(toggled) => {
+              if (toggled) {
+                // open a menu
+              } else {
+                // close a menu
+              }
+            }}
           />
         </span>
       </div>
 
-      <div
-        className={
-          open
-            ? `links h-fit flex flex-col sm:flex-row sm:justify-center sm:items-center gap-4 sm:gap-20 transition-all duration-1000`
-            : `links h-0 overflow-hidden transition-all duration-1000`
-        }
-      >
+      <div className="links flex flex-col sm:flex-row sm:justify-center sm:items-center gap-4 sm:gap-20">
         <Link href="#home" className="text-white pt-4 sm:pt-0">
           Home
         </Link>
