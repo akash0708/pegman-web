@@ -25,33 +25,49 @@ const Navbar = () => {
             size={28}
             color="#ffffff"
             onToggle={(toggled) => {
-              if (toggled) {
-                // open a menu
-              } else {
-                // close a menu
-              }
+              console.log(toggled);
             }}
           />
         </span>
       </div>
 
-      <div className="links flex flex-col sm:flex-row sm:justify-center sm:items-center gap-4 sm:gap-20">
-        <Link href="#home" className="text-white pt-4 sm:pt-0">
+      <div className="links flex flex-row justify-center items-center gap-20">
+        <Link href="#home" className="text-white hidden sm:inline">
           Home
         </Link>
-        <Link href="#about" className="text-white">
+        <Link href="#about" className="text-white hidden sm:inline">
           About
         </Link>
-        <Link href="#feature" className="text-white">
+        <Link href="#feature" className="text-white hidden sm:inline">
           Features
         </Link>
-        <Link href="#team" className="text-white">
+        <Link href="#team" className="text-white hidden sm:inline">
           Team
         </Link>
-        <Link href="#coming-soon" className="text-white">
+        <Link href="#coming-soon" className="text-white hidden sm:inline">
           Download
         </Link>
       </div>
+
+      {open && (
+        <div className="links flex flex-col sm:flex-row sm:justify-center sm:items-center gap-4 sm:gap-20">
+          <Link href="#home" className="text-white pt-4 sm:pt-0">
+            Home
+          </Link>
+          <Link href="#about" className="text-white">
+            About
+          </Link>
+          <Link href="#feature" className="text-white">
+            Features
+          </Link>
+          <Link href="#team" className="text-white">
+            Team
+          </Link>
+          <Link href="#coming-soon" className="text-white">
+            Download
+          </Link>
+        </div>
+      )}
     </nav>
   );
 };
