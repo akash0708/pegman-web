@@ -5,7 +5,10 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Team = () => {
   return (
-    <section className=" team flex flex-col items-center justify-center w-full min-h-screen bg-[#2d0c1b] ">
+    <section
+      id="team"
+      className=" team flex flex-col items-center justify-center w-full min-h-screen bg-[#2d0c1b] "
+    >
       <div className="heading">
         <span className="text-[#CDBC9E] font-Prociono text-[2.5rem] sm:text-[5rem]">
           Meet The Team

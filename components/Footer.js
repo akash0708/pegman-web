@@ -8,19 +8,19 @@ const Footer = () => {
       </div>
       <div className="quick_links flex flex-col font-Jost text-white">
         <p className="font-semibold text-2xl pb-4">Quick links</p>
-        <Link href="/" className="font-thin text-base">
+        <Link href="#home" className="font-thin text-base">
           Home
         </Link>
-        <Link href="/" className="text-base font-thin">
+        <Link href="#about" className="text-base font-thin">
           About
         </Link>
-        <Link href="/" className="text-base font-thin">
+        <Link href="#feature" className="text-base font-thin">
           Features
         </Link>
-        <Link href="/" className="text-base font-thin">
+        <Link href="#coming-soon" className="text-base font-thin">
           Download
         </Link>
-        <Link href="/" className="text-base font-thin">
+        <Link href="#team" className="text-base font-thin">
           Team
         </Link>
         <p className="text-sm font-thin pt-8 hidden sm:inline">
