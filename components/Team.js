@@ -15,36 +15,36 @@ const Team = () => {
         </span>
       </div>
       <div className="content sm:border-2 sm:border-t-0 sm:border-[#BF1B42] w-4/5 h-fit flex flex-col sm:flex-row items-center justify-center gap-28 md:gap-28 lg:gap-60 p-12 pb-24">
-        <div className="image_card h-80 w-56 relative">
+        <div className="image_card h-80 w-56 relative group flex justify-center items-center overflow-hidden">
           <Image
             src="/anirban.png"
             alt="anirban"
             fill
-            className="object-cover rounded-xl border border-[#C6627D]"
+            className="object-cover rounded-xl border border-[#C6627D] lg:group-hover:scale-105 transition-all duration-300"
           />
-          <div className="absolute flex flex-col gap-2 items-center bottom-4 left-6 text-white">
+          <div className="absolute flex flex-col gap-2 items-center bottom-4 text-white">
             <p className="font-Raleway text-xl font-semibold">
               Anirban DasGupta
             </p>
             <p className="uppercase font-Raleway text-sm">founder, ceo</p>
-            <div className="socials flex flex-row gap-2 text-lg">
+            <div className="socials flex flex-row gap-2 text-lg lg:opacity-0 lg:group-hover:opacity-100 transition duration-500">
               <FaInstagram />
               <FaFacebookSquare />
               <FaLinkedin />
             </div>
           </div>
         </div>
-        <div className="image_card h-80 w-56 relative">
+        <div className="image_card h-80 w-56 relative group flex justify-center items-center overflow-hidden">
           <Image
             src="/sainikblack.png"
             alt="sainik"
             fill
-            className="object-cover rounded-xl border border-[#C6627D] contrast-125"
+            className="object-cover rounded-xl border border-[#C6627D] contrast-125 lg:group-hover:scale-105 transition-all duration-300"
           />
-          <div className="absolute flex flex-col gap-2 items-center bottom-4 left-14 text-white">
+          <div className="absolute flex flex-col gap-2 items-center bottom-4 text-white">
             <p className="font-Raleway text-xl font-semibold">Sainik Khaddar</p>
             <p className="uppercase font-Raleway text-sm">co-founder, cmo</p>
-            <div className="socials flex flex-row gap-2 text-lg">
+            <div className="socials flex flex-row gap-2 text-lg lg:opacity-0 lg:group-hover:opacity-100 transition duration-500">
               <FaInstagram />
               <FaFacebookSquare />
               <FaLinkedin />
