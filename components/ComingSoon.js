@@ -6,7 +6,7 @@ const ComingSoon = () => {
   return (
     <section
       id="coming-soon"
-      className="coming-soon flex flex-col items-center w-full min-h-screen bg-gradient-to-tr from-[#2d0c1b] via-[#3b1023] to-[#720A30]"
+      className="coming-soon flex flex-col py-8 items-center w-full min-h-fit bg-gradient-to-tr from-[#2d0c1b] via-[#3b1023] to-[#720A30]"
     >
       <div className="flex flex-row items-center pt-4">
         <div className="bg-gradient-to-l from-[#BF1B42] w-16 md:w-32 sm:w-48 h-1 rounded-md mt-5"></div>

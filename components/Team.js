@@ -7,7 +7,7 @@ const Team = () => {
   return (
     <section
       id="team"
-      className=" team flex flex-col items-center justify-center w-full min-h-screen bg-[#2d0c1b] "
+      className=" team flex flex-col gap-8 pt-8 pb-16 items-center justify-center w-full min-h-fit  bg-[#2d0c1b] "
     >
       <div className="heading">
         <span className="text-[#CDBC9E] font-Prociono text-[2.5rem] sm:text-[5rem]">
