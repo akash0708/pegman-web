@@ -6,3 +6,7 @@
 *{
     scroll-behavior: smooth;
 }
+
+.sample-slider [class^="swiper-button-"]{
+    color: rgb(205 188 158);
+ }

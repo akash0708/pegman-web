@@ -6,6 +6,7 @@ import FeatureExt from "@/components/FeatureExt";
 import ComingSoon from "@/components/ComingSoon";
 import Team from "@/components/Team";
 import Footer from "@/components/Footer";
+import Feat from "@/components/Feat";
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
       <About />
 
       <Feature />
+
+      <Feat />
 
       <FeatureExt />
 
