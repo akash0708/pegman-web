@@ -9,4 +9,5 @@
 
 .sample-slider [class^="swiper-button-"]{
     color: rgb(205 188 158);
+    transform: translateY(-3.5rem);
  }

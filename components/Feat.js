@@ -42,6 +42,9 @@ const Feat = () => {
                 alt="no img"
                 className="object-cover mx-auto rounded-tr-[2rem] rounded-bl-[2rem] mb-8"
               />
+              <p className="text-center text-[#FFE2DB] uppercase font-Raleway text-[2rem]">
+                Coprorate <br /> Gifting
+              </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -51,6 +54,9 @@ const Feat = () => {
                 alt="no img"
                 className="object-cover mx-auto rounded-tr-[2rem] rounded-bl-[2rem] mb-8"
               />
+              <p className="text-center text-[#FFE2DB] uppercase font-Raleway text-[2rem]">
+                doorstep <br /> delivery
+              </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -60,6 +66,11 @@ const Feat = () => {
                 alt="no img"
                 className="object-cover mx-auto rounded-tr-[2rem] rounded-bl-[2rem] mb-8"
               />
+              <p className="text-center text-[#FFE2DB] uppercase font-Raleway text-[2rem]">
+                customized
+                <br />
+                cocktails
+              </p>
             </div>
           </SwiperSlide>
         </Swiper>

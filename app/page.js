@@ -17,7 +17,7 @@ export default function Home() {
 
       <About />
 
-      <Feature />
+      {/* <Feature /> */}
 
       <Feat />
 

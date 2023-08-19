@@ -16,7 +16,7 @@ const ComingSoon = () => {
         <div className="bg-gradient-to-r from-[#BF1B42] w-16 md:w-32 sm:w-48 h-1 rounded-md mt-5"></div>
       </div>
 
-      <div className="content relative w-full sm:min-h-fit flex flex-col sm:flex-row justify-center items-center md:gap-10 lg:gap-52 px-10 md:px-20 py-12">
+      <div className="content relative w-full sm:min-h-fit flex flex-col sm:flex-row justify-center items-center md:gap-10 lg:gap-52 px-10 md:px-24 lg:px-20 py-12">
         <div className="image_container relative w-4/5 sm:w-64 h-[37rem]">
           <Image src="/phone.png" alt="phone" fill className="object-fit" />
         </div>
